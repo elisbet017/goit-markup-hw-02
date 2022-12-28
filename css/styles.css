@@ -1,6 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 
 .link {
@@ -11,11 +11,21 @@ body {
   list-style: none;
 }
 
-:root
+:root {
+  --hover-color: #4d5ae5;
+  --focus-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --text-color: #434455;
+  --subtle-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-color: #f4f4fd;
+  --light-light-color: #ffffff;
+}
 
 .logo-color-header {
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--dark-color);
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -24,7 +34,7 @@ body {
 
 .logo {
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--hover-color);
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -32,7 +42,7 @@ body {
 }
 
 .logo-color-footer {
-  color: #f4f4fd;
+  color: var(--light-color);
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
@@ -57,33 +67,33 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--dark-color);
 }
 
 .site-nav-link:hover {
-  color: #434455;
+  color: var(--text-color);
 }
 
 .site-nav-link:focus {
-  color: #4d5ae5;
+  color: var(--hover-color);
 }
 .auth-nav-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .auth-nav-link:hover,
 .auth-nav-link:focus {
-  color: #4d5ae5;
+  color: var(--hover-color);
 }
 
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--light-light-color);
 }
 
 /* BUTTONS */
@@ -91,18 +101,18 @@ body {
 .hero-btn {
   cursor: pointer;
   font-family: inherit;
-  background: #4d5ae5;
+  background: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--light-light-color);
 }
 
 .hero-btn:hover {
-  background: #4d5ae5;
+  background: var(--hover-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
@@ -114,24 +124,23 @@ body {
 .our-portfolio-btn {
   font-family: inherit;
   cursor: pointer;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  background: var(--light-color);
+  border: 1px solid var(--accent-color);
   border-radius: 4px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  color: #4d5ae5;
+  color: var(--hover-color);
 }
 
 .our-portfolio-btn:hover,
 .our-portfolio-btn:focus {
-  background: #404bbf;
+  background: var(--focus-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--light-light-color);
 }
-
 
 .our-features-subtitle {
   font-weight: 500;
@@ -143,7 +152,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .title {
@@ -162,16 +171,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #e7e9fc;
+  color: var(--accent-color);
 }
-
 
 .offers-subtitle {
   font-weight: 500;
@@ -184,20 +192,20 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--text-color);
 }
 
 .hero,
 .footer {
-  background: #2e2f42;
+  background: var(--dark-color);
 }
 
 .our-team {
-  background: #f4f4fd;
+  background: var(--light-color);
 }
 
 .our-team-img {
-  background: #ffffff;
+  background: var(--light-light-color);
   width: 264px;
   height: 380px;
 }
