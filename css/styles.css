@@ -3,16 +3,53 @@ body {
   color: #2e2f42;
 }
 
-/* a {
+.link {
   text-decoration: none;
 }
 
-ul {
+.list {
   list-style: none;
-} */
+}
+
+:root
+
+.logo-color-header {
+  text-transform: uppercase;
+  color: #2e2f42;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
 
 .logo {
   text-transform: uppercase;
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.logo-color-footer {
+  color: #f4f4fd;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+.hidden-title {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 .site-nav-link {
@@ -49,8 +86,11 @@ ul {
   color: #ffffff;
 }
 
+/* BUTTONS */
+
 .hero-btn {
   cursor: pointer;
+  font-family: inherit;
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -65,14 +105,33 @@ ul {
   background: #4d5ae5;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  border-radius: 4px;
 }
 
 .hero-btn:focus {
   background: #404bbf;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
 }
+
+.our-portfolio-btn {
+  font-family: inherit;
+  cursor: pointer;
+  background: #f4f4fd;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #4d5ae5;
+}
+
+.our-portfolio-btn:hover,
+.our-portfolio-btn:focus {
+  background: #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
 
 .our-features-subtitle {
   font-weight: 500;
@@ -113,29 +172,6 @@ ul {
   color: #e7e9fc;
 }
 
-.our-portfolio-btn {
-  cursor: pointer;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #4d5ae5;
-}
-
-.our-portfolio-btn:hover,
-.our-portfolio-btn:focus {
-  background: #404bbf;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  color: #ffffff;
-}
 
 .offers-subtitle {
   font-weight: 500;
@@ -149,4 +185,19 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.hero,
+.footer {
+  background: #2e2f42;
+}
+
+.our-team {
+  background: #f4f4fd;
+}
+
+.our-team-img {
+  background: #ffffff;
+  width: 264px;
+  height: 380px;
 }
