@@ -23,30 +23,27 @@ body {
   --light-light-color: #ffffff;
 }
 
-.logo-color-header {
-  text-transform: uppercase;
-  color: var(--dark-color);
+/* LOGO */
+
+.logo {
   font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
 }
 
-.logo {
+.logo-color-header {
+  text-transform: uppercase;
+  color: var(--dark-color);
+}
+
+.logo-color {
   text-transform: uppercase;
   color: var(--hover-color);
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
 }
 
 .logo-color-footer {
   color: var(--light-color);
-  font-family: "Raleway";
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
 }
 
 .hidden-title {
@@ -62,12 +59,15 @@ body {
   margin: -1px;
 }
 
-.site-nav-link {
-  font-weight: 500;
+.nav-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--dark-color);
+}
+
+.site-nav-link {
+  font-weight: 500;
+  color: inherit;
 }
 
 .site-nav-link:hover {
@@ -78,9 +78,6 @@ body {
   color: var(--hover-color);
 }
 .auth-nav-link {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--text-color);
 }
 
@@ -142,32 +139,19 @@ body {
   color: var(--light-light-color);
 }
 
-.our-features-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-}
-.our-features-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-
 .title {
   font-size: 36px;
   line-height: 1.11;
 }
 
-.our-team-subtitle {
+.subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.our-team-text {
+.text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -175,25 +159,21 @@ body {
 }
 
 .footer-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--accent-color);
 }
 
+/* .our-features-subtitle {
+}
+.our-features-text {
+}
+.our-team-subtitle {
+}
+.our-team-text {
+}
 .offers-subtitle {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
-
 .offers-text {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
+} */
 
 .hero,
 .footer {
