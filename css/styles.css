@@ -1,6 +1,9 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--dark-color);
+  background: var(--light-light-color);
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .link {
@@ -59,31 +62,26 @@ body {
   margin: -1px;
 }
 
-.nav-link {
-  font-size: 16px;
+.site-nav-link {
+  font-weight: inherit;
+  color: inherit;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-.site-nav-link {
-  font-weight: 500;
-  color: inherit;
+.site-nav-link:hover, .site-nav-link:focus {
+  color: var(--focus-color);
 }
 
-.site-nav-link:hover {
+.contact-link {
   color: var(--text-color);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
-.site-nav-link:focus {
-  color: var(--hover-color);
-}
-.auth-nav-link {
-  color: var(--text-color);
-}
-
-.auth-nav-link:hover,
-.auth-nav-link:focus {
-  color: var(--hover-color);
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--focus-color);
 }
 
 .hero-title {
@@ -102,7 +100,7 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-weight: 600;
-  font-size: 16px;
+  font-size: inherit;
   line-height: 1.19;
   letter-spacing: 0.04em;
   color: var(--light-light-color);
@@ -124,8 +122,8 @@ body {
   background: var(--light-color);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
+  font-weight: inherit;
+  font-size: inherit;
   line-height: 1.5;
   color: var(--hover-color);
 }
@@ -139,20 +137,20 @@ body {
   color: var(--light-light-color);
 }
 
-.title {
+.section-title {
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 
-.subtitle {
-  font-weight: 500;
+.section-subtitle {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.text {
-  font-size: 16px;
+.section-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
