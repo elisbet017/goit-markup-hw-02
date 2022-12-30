@@ -3,7 +3,6 @@ body {
   color: var(--dark-color);
   background: var(--light-light-color);
   font-size: 16px;
-  font-weight: 500;
 }
 
 .link {
@@ -63,7 +62,7 @@ body {
 }
 
 .site-nav-link {
-  font-weight: inherit;
+  font-weight: 500;
   color: inherit;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -99,7 +98,7 @@ body {
   background: var(--hover-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  font-weight: 600;
+  font-weight: 500;
   font-size: inherit;
   line-height: 1.19;
   letter-spacing: 0.04em;
@@ -122,7 +121,7 @@ body {
   background: var(--light-color);
   border: 1px solid var(--accent-color);
   border-radius: 4px;
-  font-weight: inherit;
+  font-weight: 500;
   font-size: inherit;
   line-height: 1.5;
   color: var(--hover-color);
@@ -146,6 +145,7 @@ body {
 
 .section-subtitle {
   font-size: 20px;
+  font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
