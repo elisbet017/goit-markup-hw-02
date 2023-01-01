@@ -187,3 +187,7 @@ body {
   width: 264px;
   height: 380px;
 }
+
+.big-letter {
+  text-transform: capitalize;
+}
